@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlDataDHL\\CrawlDataDHL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlDataDHL\\CrawlDataDHL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlDataDHL\\CrawlDataDHL.csproj",
+        "projectName": "CrawlDataDHL",
+        "projectPath": "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlDataDHL\\CrawlDataDHL.csproj",
+        "packagesPath": "C:\\Users\\NguyenTien\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlDataDHL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\NguyenTien\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlLib\\CrawlLib.csproj": {
+                "projectPath": "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlLib\\CrawlLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Selenium.Chrome.WebDriver": {
+              "target": "Package",
+              "version": "[85.0.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "WebDriver.ChromeDriver.win32": {
+              "target": "Package",
+              "version": "[105.0.5195.52, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlLib\\CrawlLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlLib\\CrawlLib.csproj",
+        "projectName": "CrawlLib",
+        "projectPath": "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlLib\\CrawlLib.csproj",
+        "packagesPath": "C:\\Users\\NguyenTien\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\NguyenTien\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

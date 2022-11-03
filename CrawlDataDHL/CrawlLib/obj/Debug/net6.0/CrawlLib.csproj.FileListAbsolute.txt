@@ -1,0 +1,12 @@
+C:\Users\NguyenTien\OneDrive\Desktop\Freelance Project\CrawlDataDHL\CrawlLib\bin\Debug\net6.0\CrawlLib.deps.json
+C:\Users\NguyenTien\OneDrive\Desktop\Freelance Project\CrawlDataDHL\CrawlLib\bin\Debug\net6.0\CrawlLib.dll
+C:\Users\NguyenTien\OneDrive\Desktop\Freelance Project\CrawlDataDHL\CrawlLib\bin\Debug\net6.0\CrawlLib.pdb
+C:\Users\NguyenTien\OneDrive\Desktop\Freelance Project\CrawlDataDHL\CrawlLib\obj\Debug\net6.0\CrawlLib.csproj.AssemblyReference.cache
+C:\Users\NguyenTien\OneDrive\Desktop\Freelance Project\CrawlDataDHL\CrawlLib\obj\Debug\net6.0\CrawlLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NguyenTien\OneDrive\Desktop\Freelance Project\CrawlDataDHL\CrawlLib\obj\Debug\net6.0\CrawlLib.AssemblyInfoInputs.cache
+C:\Users\NguyenTien\OneDrive\Desktop\Freelance Project\CrawlDataDHL\CrawlLib\obj\Debug\net6.0\CrawlLib.AssemblyInfo.cs
+C:\Users\NguyenTien\OneDrive\Desktop\Freelance Project\CrawlDataDHL\CrawlLib\obj\Debug\net6.0\CrawlLib.csproj.CoreCompileInputs.cache
+C:\Users\NguyenTien\OneDrive\Desktop\Freelance Project\CrawlDataDHL\CrawlLib\obj\Debug\net6.0\CrawlLib.dll
+C:\Users\NguyenTien\OneDrive\Desktop\Freelance Project\CrawlDataDHL\CrawlLib\obj\Debug\net6.0\refint\CrawlLib.dll
+C:\Users\NguyenTien\OneDrive\Desktop\Freelance Project\CrawlDataDHL\CrawlLib\obj\Debug\net6.0\CrawlLib.pdb
+C:\Users\NguyenTien\OneDrive\Desktop\Freelance Project\CrawlDataDHL\CrawlLib\obj\Debug\net6.0\ref\CrawlLib.dll

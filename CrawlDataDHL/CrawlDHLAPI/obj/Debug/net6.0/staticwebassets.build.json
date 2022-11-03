@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oluWJxWEULrJJUgQ7ctxq0cmGBtg84GMdZpZ2k8HLE8=",
+  "Source": "CrawlDHLAPI",
+  "BasePath": "_content/CrawlDHLAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

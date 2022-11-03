@@ -1,0 +1,225 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Selenium.Chrome.WebDriver/85.0.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.Chrome.WebDriver.targets": {}
+        }
+      },
+      "Selenium.WebDriver/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/net5.0/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/WebDriver.dll": {}
+        }
+      },
+      "WebDriver.ChromeDriver.win32/105.0.5195.52": {
+        "type": "package"
+      },
+      "CrawlLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Selenium.WebDriver": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/CrawlLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrawlLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Selenium.Chrome.WebDriver/85.0.0": {
+      "sha512": "wRg7it2bBMyYtOsarTy0bWtS2fCZI08KGTef2kH381DYpGP+wX8j6f/7ABv1nmrUj5CCVmTeDeYeXS5g00JXSw==",
+      "type": "package",
+      "path": "selenium.chrome.webdriver/85.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.Chrome.WebDriver.targets",
+        "driver/chromedriver.exe",
+        "selenium.chrome.webdriver.85.0.0.nupkg.sha512",
+        "selenium.chrome.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/4.5.1": {
+      "sha512": "ztu9Qv2n5/NkqPs0MQ3nojMJuW2PVHrAKDukmT77HbYAGhZI370Hp0EJNqyucJuud937Lr/qvXsoOtLZ18VFnw==",
+      "type": "package",
+      "path": "selenium.webdriver/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/net45/WebDriver.dll",
+        "lib/net46/WebDriver.dll",
+        "lib/net47/WebDriver.dll",
+        "lib/net48/WebDriver.dll",
+        "lib/net5.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.1/WebDriver.dll",
+        "selenium.webdriver.4.5.1.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    },
+    "WebDriver.ChromeDriver.win32/105.0.5195.52": {
+      "sha512": "RjRfFdSY7dQWaAPTzSK5EPSII6JzfiZAkuLKGsEu4g4nR1s02vb1ug7hRj3C7pb0VmvkAh3fw3SaoVU2MfSiJQ==",
+      "type": "package",
+      "path": "webdriver.chromedriver.win32/105.0.5195.52",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/chromedriver.exe",
+        "tools/install.ps1",
+        "tools/uninstall.ps1",
+        "webdriver.chromedriver.win32.105.0.5195.52.nupkg.sha512",
+        "webdriver.chromedriver.win32.nuspec"
+      ]
+    },
+    "CrawlLib/1.0.0": {
+      "type": "project",
+      "path": "../CrawlLib/CrawlLib.csproj",
+      "msbuildProject": "../CrawlLib/CrawlLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "CrawlLib >= 1.0.0",
+      "Selenium.Chrome.WebDriver >= 85.0.0",
+      "Selenium.WebDriver >= 4.5.1",
+      "WebDriver.ChromeDriver.win32 >= 105.0.5195.52"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\NguyenTien\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlDataDHL\\CrawlDataDHL.csproj",
+      "projectName": "CrawlDataDHL",
+      "projectPath": "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlDataDHL\\CrawlDataDHL.csproj",
+      "packagesPath": "C:\\Users\\NguyenTien\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlDataDHL\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\NguyenTien\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlLib\\CrawlLib.csproj": {
+              "projectPath": "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlLib\\CrawlLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Selenium.Chrome.WebDriver": {
+            "target": "Package",
+            "version": "[85.0.0, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[4.5.1, )"
+          },
+          "WebDriver.ChromeDriver.win32": {
+            "target": "Package",
+            "version": "[105.0.5195.52, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

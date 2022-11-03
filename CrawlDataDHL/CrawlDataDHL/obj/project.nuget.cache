@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZxCf/BUoI5/o1eGAurLcmg4T01uCL2a1I2rz3MP9biPyd5pHrUMAEb5yHnDzU84SeC0gixKGkY6i/4N5E04cug==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\NguyenTien\\OneDrive\\Desktop\\Freelance Project\\CrawlDataDHL\\CrawlDataDHL\\CrawlDataDHL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NguyenTien\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\NguyenTien\\.nuget\\packages\\selenium.chrome.webdriver\\85.0.0\\selenium.chrome.webdriver.85.0.0.nupkg.sha512",
+    "C:\\Users\\NguyenTien\\.nuget\\packages\\selenium.webdriver\\4.5.1\\selenium.webdriver.4.5.1.nupkg.sha512",
+    "C:\\Users\\NguyenTien\\.nuget\\packages\\webdriver.chromedriver.win32\\105.0.5195.52\\webdriver.chromedriver.win32.105.0.5195.52.nupkg.sha512"
+  ],
+  "logs": []
+}
