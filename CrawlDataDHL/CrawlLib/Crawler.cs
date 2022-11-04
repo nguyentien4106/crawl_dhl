@@ -125,7 +125,7 @@ namespace CrawlLib
         {
             using (StreamWriter sw = File.CreateText(PathLogFile))
             {
-                sw.WriteLine($"{DateTime.Now} : {status}");
+                sw.WriteLine($"{DateTime.Now.ToString()} : {status}");
             }
         }
         ChromeOptions GetOptions()
